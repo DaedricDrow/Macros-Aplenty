@@ -7,13 +7,19 @@ let editor = new Dialog({
         publicroll: {
             label: 'Public Roll',
             callback: () => {
-                game.tables.getName(table).draw({rollMode: 'publicroll'}).results;
+                table.draw({rollMode: 'publicroll'}).results;
+            }
+        },
+        privateroll: {
+            label: 'Private Roll',
+            callback: () => {
+                table.draw({rollMode: 'privateroll'}).results;
             }
         },
         gmroll: {
             label: 'GM Roll',
             callback: () => {
-                game.tables.getName(table).draw({rollMode: 'gmroll'}).results;
+                table.draw({rollMode: 'gmroll'}).results;
             }
         },
         close: {
