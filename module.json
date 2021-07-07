@@ -1,0 +1,8 @@
+{
+"name":"macros-aplenty",
+"title":"Macros Aplenty",
+"desciption":"A collection of macros for Foundry VTT.",
+"author":"DaedricDrow",
+"version":"0.0.1a",
+"minimumCoreVersion": "0.8.8"
+}
